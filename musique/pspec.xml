@@ -15,14 +15,12 @@
         <PartOf>multimedia.sound</PartOf>
         <Summary>Minimalistic and innovative music player.</Summary>
         <Description>Browse your collection by artists pictures and album covers. Also during playing the music Musique shows covers and additional informations about the artists.</Description>
-        <Archive sha1sum="9aed39301c09eef60f96d8b5972f096bbd5a7ca2"  type="targz">http://flavio.tordini.org/files/musique/musique-1.0.tar.gz</Archive>
+        <Archive sha1sum="0a9190ff3b7fcfa79ad2908ec28e485a994c4514"  type="targz">http://flavio.tordini.org/files/musique/musique-1.2.1.tar.gz</Archive>
         <BuildDependencies>
              <Dependency>qt-devel</Dependency>
              <Dependency>phonon-devel</Dependency>
              <Dependency>taglib-devel</Dependency>
         </BuildDependencies>
-        <Patches>
-        </Patches>
     </Source>
 
     <Package>
@@ -46,6 +44,13 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2013-04-27</Date>
+            <Version>1.2.1</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Yusuf Aydemir</Name>
+            <Email>yusuf.aydemir@pisilinux.org</Email>
+        </Update>
         <Update release="1">
             <Date>2011-10-27</Date>
             <Version>1.0</Version>
