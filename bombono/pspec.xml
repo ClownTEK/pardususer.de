@@ -14,7 +14,7 @@
         <PartOf>multimedia.video</PartOf>
         <Summary>DVD authoring program</Summary>
         <Description>Bombono DVD is a DVD authoring program. It is easy to use and has nice and clean GUI (Gtk).</Description>
-        <Archive sha1sum="c00d49a596e7f40744239225d23b1fdcc27a630f" type="tarbz2">mirrors://sourceforge/bombono/bombono-dvd-1.2.1.tar.bz2</Archive>
+        <Archive sha1sum="06b1e21caa6edc063b21f72df11c656fb2925f4b" type="tarbz2">mirrors://sourceforge/bombono/bombono-dvd-1.2.2.tar.bz2</Archive>
         <BuildDependencies>
             <Dependency>gtk2</Dependency>
             <Dependency>gtkmm-devel</Dependency>
@@ -70,6 +70,13 @@
     </Package>
 
     <History>
+        <Update release="6">
+            <Date>2013-04-27</Date>
+            <Version>1.2.2</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Yusuf Aydemir</Name>
+            <Email>yusuf.aydemir@pisilinux.org</Email>
+        </Update>
         <Update release="5">
             <Date>2012-02-11</Date>
             <Version>1.2.1</Version>
